@@ -18,4 +18,9 @@ class Home extends BaseController
     {
         return view('/snap/checkout-process');
     }
+    
+    public function invoice()
+    {
+        return view('invoice');
+    }
 }
